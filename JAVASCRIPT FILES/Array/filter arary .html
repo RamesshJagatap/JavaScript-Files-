@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const filteredArray = array.filter((e)=>e%2 == 0);
+        console.log( filteredArray)
+
+        const arr= [ 77,99,33,66,33,4];
+        const asc = arr.sort ((a,b)=> a?b 1 : -1);
+        console.log( "Ascending Order: " , asc)
+
+        const a1= [ "alex", "bob", "cat"];
+        const a2= [ "marley" , "seam", "two"];
+        console.log( a1.conact(a2));
+
+        const result =[ 23,44,45,55,56,77];
+        const moreThan90 = result.every( ele=>ele>=90);
+        console.log(moreThan90)
+
+        console.log( result.includes(35));
+        console.log( result.find ( e=> e==35));
+         
+
+        const data = [ "a", "b ","c"];
+        console.log( data.join("-"));
+
+        console.log( result.findIndex( e=>e==92))
+
+        console.log( result.indexOf(35));
+
+         let myArray = new Arary[3];  // Array lenth have three elements
+        myArray.fill(12);             // these elements can have three elements         
+        console.log(myArray)
+    </script>
+</body>
+</html>
